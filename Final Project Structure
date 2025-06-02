@@ -1,0 +1,14 @@
+biomed-chatbot/
+│
+├── app.py
+├── download_model.py
+├── requirements.txt
+├── .gitignore
+├── README.md
+│
+├── documents/
+│   └── example.pdf     # Your input PDF (add manually)
+│
+└── models/
+    └── all-MiniLM-L6-v2/  # Will be created by download_model.py
+    └── ggml-gpt4all-j-v1.3-groovy.bin  # Add this manually
