@@ -1,0 +1,15 @@
+
+---
+
+## ✅ Final Step: Upload to GitHub
+
+1. Create a GitHub repo (e.g., `biomed-chatbot`)
+2. Run these commands:
+
+```bash
+git init
+git add .
+git commit -m "Initial commit: Offline BioMed Chatbot"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/biomed-chatbot.git
+git push -u origin main
