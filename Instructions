@@ -1,0 +1,29 @@
+Manually Add LLM Model
+Download the LLM binary manually:
+
+Go to: https://gpt4all.io/models/ggml-gpt4all-j-v1.3-groovy.bin
+
+Place it in: models/ggml-gpt4all-j-v1.3-groovy.bin
+
+Add your PDF
+Place a PDF named example.pdf in the documents/ folder.
+
+Run the App
+streamlit run app.py
+
+Folder Structure
+biomed-chatbot/
+├── app.py
+├── download_model.py
+├── documents/
+│   └── example.pdf
+├── models/
+│   ├── all-MiniLM-L6-v2/
+│   └── ggml-gpt4all-j-v1.3-groovy.bin
+
+Ideal Use Cases
+Healthcare research Q&A
+
+Offline hospital systems
+
+Secure environments with no internet
